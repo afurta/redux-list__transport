@@ -1,0 +1,54 @@
+.btnDelete,
+.btnEdit,
+.btnAdd {
+    cursor: pointer;
+    text-align: center;
+}
+
+.btnDelete i,
+.btnEdit i,
+.btnAdd i {
+    transition: 0.2s all;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btnDelete i:hover,
+.btnEdit i:hover,
+.btnAdd i:hover {
+    transform: scale(1.4);
+}
+
+.thBtn {
+    width: none;
+}
+.defaulTr {
+    border-bottom: none;
+}
+form {
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    padding-top: 30px;
+}
+.closeForm {
+    position: absolute;
+    top: 20px;
+    right: -40px;
+    cursor: pointer;
+}
+.form_hide {
+    display: none;
+}
+.table_show {
+    display: block;
+}
+.table_hide {
+    display: none;
+}
+table {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
